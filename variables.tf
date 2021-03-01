@@ -14,7 +14,7 @@ variable "remote_vpn_ip_cidr" {
   default = "0.0.0.0/0"
 }
 
-variable "remote_subnet_cidr" {
+variable "onsite_private_subnet_cidr" {
 }
 
 variable "public_subnet_ids" {
